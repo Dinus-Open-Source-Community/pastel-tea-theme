@@ -1,0 +1,31 @@
+{
+  "name": "TeaLeaf-Pastel",
+  "displayName": "TeaLeaf-Pastel",
+  "description": "TeaLeaf-Pastel adalah tema warna yang menghadirkan suasana alami, lembut, dan menenangkan. Terinspirasi dari daun teh muda, tema ini menggunakan palet warna pastel yang halus, menciptakan tampilan yang segar tanpa terlalu mencolok di mata. Cocok untuk kamu yang ingin suasana coding terasa santai, bersih, dan ramah di layar.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "TeaLeaf Pastel Dark", 
+        "uiTheme": "vs-dark",
+        "path": "./themes/TeaLeaf-Pastel-Dark-theme.json"
+      },
+      {
+        "label": "TeaLeaf Pastel Light", 
+        "uiTheme": "vs",
+        "path": "./themes/TeaLeaf-Pastel-Light-theme.json"
+      },
+      {
+        "label": "TeaLeaf Pastel Neon", 
+        "uiTheme": "vs-dark",
+        "path": "./themes/TeaLeaf-Pastel-Neon-theme.json"
+      }
+    ]
+  }
+}
